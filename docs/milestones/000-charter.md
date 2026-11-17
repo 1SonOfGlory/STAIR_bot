@@ -32,7 +32,7 @@ page 8's table and plots were also visually inspected.
 ## Validation and review
 
 - Local document validation: bundled Python check found seven nonempty Markdown files,
-  ten resolving relative links, and all twelve requirement IDs; pass. An initial inline
+  eleven resolving relative links, and all twelve requirement IDs on the final check; pass. An initial inline
   check failed on PowerShell quoting; the corrected file-based check executed successfully.
 - `git diff --check`: pass before staging; staged diff checked again before commit.
 - Source metrics and qualifications were checked against the extracted paper and its
@@ -55,6 +55,20 @@ page 8's table and plots were also visually inspected.
 
 Application tests and benchmarks are not applicable: no application was implemented.
 No claim of production readiness follows from documentation checks.
+
+## Publication and handoff
+
+Charter commit `6d25ac6bc0222234a4d3fede5eebef8e2c933f98` was pushed to the verified
+origin on `codex/project-charter`. [Pull request 1](https://github.com/1SonOfGlory/STAIR_bot/pull/1)
+was opened against main and observed as open with eight changed files. GitHub showed
+merging blocked pending one approving review from a reviewer with write access.
+No merge was attempted. This documentation milestone is delivered for human review;
+the next milestone remains unauthorized.
+
+The sandboxed push could not use Windows credential storage. An approved elevated
+push succeeded using the existing credential manager and a command-scoped safe.directory
+exception for this newly cloned repository. No global Git configuration was changed.
+This follow-up record is committed separately so publication is recorded after observation.
 
 ## Remaining limitations and stopping condition
 
