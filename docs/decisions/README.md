@@ -45,3 +45,22 @@ current scope does not approve implementation or certify production readiness.
   pending approved requirements, evaluation protocol, evidence, and human decision.
 - Limitations: no local benchmarks or training, no verified runtime costs, code not audited.
 - Approving authority: human project owner; no final retrieval architecture approved.
+
+## D004: Proposed V1 engineering baseline
+
+- Date: 2026-11-18. Owner: coordinator; separate engineering, security and research
+  reviews recorded in [milestone 1](../milestones/001-specifications.md).
+- Artifact: twelve specifications in the milestone commit; authority: user's explicit
+  requirements/architecture assignment, not approval to implement.
+- Decision: modular monolith, asynchronous database jobs, isolated execution host,
+  versioned provenance and provider-independent model access are the candidate design.
+- Alternatives: microservices, broker, dedicated vector database and trained STAIR remain
+  conditional on measured constraints; do not add infrastructure speculatively.
+- Evidence: product requirements, STAIR review and supplemental IBM evidence; no local
+  performance or learning-efficacy results. Numeric targets are proposed release gates.
+- Disposition: pass for reviewable specification scope; human acceptance and outstanding
+  roadmap decisions precede their implementation gates. No experiments authorized.
+- Consequence: source-byte approval, tenant isolation, deletion, admission accounting and
+  recovery are mandatory contracts, not optional later hardening.
+- Limitation: operational feasibility, providers, costs, model quality and sandbox safety
+  require future execution evidence. Approving authority remains the project owner.

@@ -8,8 +8,7 @@ evaluate alternatives, manage risk, document decisions, preserve quality, and pr
 verifiable evidence for every implemented feature. Role titles are responsibilities,
 not claims of professional credentials.
 
-The approved current milestone is charter, governance, documentation structure, and
-inspection of the supplied STAIR paper. Do not implement the application yet. Work on
+The approved current milestone is Version 1 requirements and architecture specifications, including the supplied IBM research evidence. Do not implement the application yet. Work on
 one human-approved milestone at a time; completion does not authorize the next one.
 No paid APIs, compute, services, credits, or package installations are authorized by
 this milestone. Existing Codex access is limited. Do not initiate the parent research
